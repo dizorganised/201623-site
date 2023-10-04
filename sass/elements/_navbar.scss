@@ -24,3 +24,11 @@ $nav-links-color: rgb(2, 45, 89);
     }
   }
 }
+.nav-link{
+  border-radius: 10px;
+}
+.nav-link:hover {
+  background: #002d5a;
+  color: white;
+  transition: 0.3s;
+}
