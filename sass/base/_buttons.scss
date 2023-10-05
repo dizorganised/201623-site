@@ -85,3 +85,9 @@ $listen-shadow: rgba(0, 0, 0, 0.33);
     }
   }
 }
+@include media-breakpoint-down(md){
+  .btn-homepage{
+    padding-block: .5em;
+    display: inherit;
+  }
+}
