@@ -2,7 +2,7 @@ $button-color: #fff;
 $listen-shadow: rgba(0, 0, 0, 0.33);
 
 .btn {
-  border: 0;
+  border: 0.1em;
   border-radius: 0.4em;
   padding: 0.25em 1em;
   font-family: $font-family-heading;
@@ -85,9 +85,15 @@ $listen-shadow: rgba(0, 0, 0, 0.33);
     }
   }
 }
+.btn-homepage-lines{
+  padding: .3rem;
+}
 @include media-breakpoint-down(md){
   .btn-homepage{
-    padding-block: .5em;
+    padding-block: .5rem;
     display: inherit;
+  }
+  .btn-homepage-lines{
+    padding-bottom: .5rem;
   }
 }
